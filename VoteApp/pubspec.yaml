@@ -1,0 +1,31 @@
+name: vote2
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  firebase_auth: ^4.19.2
+  firebase_core: ^2.30.0
+  firebase_ui_auth: ^1.13.1
+  flutter_countdown_timer: ^4.1.0
+  cloud_firestore: ^4.17.0
+  flutter:
+    sdk: flutter
+  local_auth: ^2.2.0
+  device_preview: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+   - lib/assets/votep.jpg
+   - lib/assets/votimg.jpg
+
+
